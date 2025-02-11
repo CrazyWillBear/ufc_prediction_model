@@ -1,7 +1,7 @@
 # UFC Outcome Prediction Model
 
 ### Summary
-This project uses `scikit-learn`'s Multi-Layer Perceptron (MLP) classifier to make a neural network model that predicts UFC fight outcomes given historical fight data. The train/test split was 70/30, I used `LabelEncoder` and `OneHotEncoder` to encode categorical data, and used `StandardScaler` to scale my data. The model, encoders, and scaler are dumped as `.pkl` files using `joblib` for future use in, say, an API. The model itself was tested at ~57% accuracy, which given the unpredictability and frequent upsets within the UFC I'm happy with.
+This project uses `scikit-learn`'s Multi-Layer Perceptron (MLP) classifier to make a neural network model that predicts UFC fight outcomes trained on historical fight data. The train/test split was 70/30, I used `LabelEncoder` and `OneHotEncoder` to encode categorical data, and used `StandardScaler` to scale my data. The model, encoders, and scaler are dumped as `.pkl` files using `joblib` for future use in, say, an API. The model itself was tested at ~57% accuracy, which given the unpredictability and frequent upsets within the UFC I'm happy with.
 
 ### Data Source
 This data comes from Kaggle, [here's the link](https://www.kaggle.com/datasets/mdabbert/ultimate-ufc-dataset).
